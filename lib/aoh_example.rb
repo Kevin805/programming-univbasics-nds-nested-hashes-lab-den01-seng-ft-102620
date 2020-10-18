@@ -19,5 +19,5 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  aoh[0][1] = "Stacy"
+  aoh[row][key] = new_value
 end
